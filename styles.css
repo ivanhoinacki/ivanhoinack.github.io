@@ -1,0 +1,117 @@
+nav {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    color: #337ab7;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.menu a:hover {
+    background-color: #e2e6ea;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    color: #666;
+}
+
+.intro {
+    text-align: center;
+    padding: 20px;
+}
+
+.intro h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 16px;
+    color: #555;
+}
+* {
+    font-family: "Maven Pro", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body {
+    color: #555;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+section p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.back-to-home {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.back-to-home a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #337ab7;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.back-to-home a:hover {
+    background-color: #286090;
+}
